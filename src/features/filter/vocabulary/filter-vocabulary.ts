@@ -1,0 +1,17 @@
+export enum AppFilterVocabulary {
+  status = 'Статус',
+  docNumber = 'Номер документа',
+  dataPeriod = 'Дата',
+  amount = 'Сумма',
+  docType = 'Тип документа',
+  recipientRegistryCode = 'Код по Сводному реестру получателя',
+  recipientPersonalAccount = 'Лицевой счет получателя',
+  recipientCardNumber = 'Номер банковской карты',
+  recipientName = 'Наименование получателя',
+  recipientBankAccount = 'Номер счёта получателя',
+  recipientBankName = 'Банк получателя',
+  payerName = 'Наименование плательщика',
+  payerBankAccount = 'Номер счёта плательщика',
+  payerBankName = 'Банк плательщика',
+  createdTs = 'Дата загрузки',
+}
